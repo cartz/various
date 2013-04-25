@@ -1,0 +1,40 @@
+<html>
+
+<!--	this piece of poetry is tested and working under firefox on os x! for further informations please look at the style.css	-->
+
+	<head>
+	
+		<title>soundbutton</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="soundbutton"/>
+
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+		<!--	until this part the html document is opened and the external css file is loaded	-->
+
+			<script type='text/javascript'>
+				function im(element, image) {
+					element.src=image
+				}
+				function playNew() {
+					zone = document.getElementById("audioElements");
+					tag = document.createElement('audio');
+					tag.setAttribute("src","sounds/punch.ogg") 
+					//	as my sound is not within this commit, you will have to upload your own sound and chance the source ("src"), if your filename differs from "punch.ogg". be prepared, that .ogg does not natively run under e.g. safari.			
+					tag.play()
+				}
+			</script>
+			
+			<!--	this is the js i used to get the audio playing and the button being slightly animated. i think it is quite striped down, but perhaps you can clear some more lines. adding lines should not be any problem	-->
+		
+	</head>
+	
+	<body>
+	
+		<div class="button">
+			<img src='images/off.png' alt='tick tock' onMouseOver='im(this, "images/on.png")' onMouseOut='im(this, "images/off.png")' onClick='playNew()'/>
+		</div>
+		<!--	this is the button to press for the sound. there are kind of three states defined. the icons used in my example are free to use and made by MazeNL77 @ http://mazenl77.deviantart.com/	-->
+		
+	</body>
+</html>
