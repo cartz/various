@@ -1,0 +1,87 @@
+/*
+=== floating text ===
+
+contributors: Claus Artz
+author link: http://mydarktime.de
+license: CC BY-NC-SA 3.0
+
+== description ==
+this work work was inspired by Fabio Sasso @ http://fabiosasso.com and will be used during a lesson i have to held for my exam!
+
+
+*/
+
+body{
+				background: #fff;
+				color: #000;
+				font-family: sans-serif;
+				width: 100%;
+				height: 100%;
+				overflow: hidden;
+				
+			}
+			header{
+				position: absolute;
+				height: 100%;
+				width: 100%;
+/*				background: url(schule-logo.png) no-repeat center center;*/
+/*				background-size: 256px;*/
+				z-index: 100000000000000000000;
+			}
+			section{
+				-webkit-perspective: 300;
+				width: 100%;
+				
+			}
+			article{
+				height: 100%;
+				overflow: scroll;
+				font-size: 32px;
+				height: 100%;
+/*				-webkit-transform: rotateX(5deg);
+				-moz-transform: rotateX(5deg);
+				transform: rotateX(5deg);*/
+			}
+			article p{
+				-webkit-transform: translateY(800px);
+				-moz-transform: translateY(800px);
+				transform: translateY(800px);
+				-webkit-animation: txtmove 80s linear 3s 1;
+				-moz-animation: txtmove 80s linear 3s 1;
+				animation: txtmove 80s linear 3s 1;
+				padding: 0 30%;
+			}
+			article p.last{
+				
+			}
+			.star{
+				opacity: 0;
+				position: absolute;
+				display: block;
+				background: #fff;
+				-webkit-animation-name: animstar;
+				-webkit-animation-iteration-count: infinite;
+				-moz-animation-name: animstar;
+				-moz-animation-iteration-count: infinite;
+				animation-name: animstar;
+				animation-iteration-count: infinite;
+				
+			}
+		
+			
+			@-webkit-keyframes txtmove {
+			  0%   { -webkit-transform: translateY(700px); }
+			  100% { -webkit-transform: translateY(-1800px); }
+			}
+			@-webkit-keyframes animstar {
+			  0%   { opacity: .4; }
+			  100% { opacity: .8; }
+			}
+			@keyframes txtmove {
+			  0%   { -moz-transform: translateY(700px); }
+			  100% { -moz-transform: translateY(-1800px); }
+			}
+			@keyframes animstar {
+			  0%   { opacity: .4; }
+			  100% { opacity: .8; }
+			}
