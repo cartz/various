@@ -1,0 +1,42 @@
+/*
+=== under construction ===
+
+contributors: Claus Artz
+author link: http://mydarktime.de
+license: CC BY-NC-SA 3.0
+
+== description ==
+this has helped me out many times, when i was in need to get a quick landing page. as it is quite old it is not responsive or something else! i know that the colours look really strange, but it is just a working version, where colors need to be changed expecting the subject!
+
+
+*/
+
+body {
+	background-color: #95a5a6;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.barWrap {
+	margin: 300px auto 0 auto;
+	background-color: #3498db;
+	height: 80px;
+	border-top: #fff solid 2px;
+	border-bottom: #fff solid 2px;
+}
+
+.infoBalloon {
+	margin: -190px 0 0 0;
+	width: 243px;
+	height: 230px;
+	background-image: url(balloon.png);
+	position: relative;
+	left: 5em;
+}
+
+.infoBalloonContent {
+	padding: 35px 25px 0 25px;
+	font-size: 20px;
+	font-style: italic;
+	color :#000000;
+}
