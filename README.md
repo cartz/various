@@ -20,6 +20,7 @@ This is an libary of things I collected during my work on various projects. This
 * a short webspacetest
 * some wordpress snippets
 * a small and simple landing page for a website under construction
+* a very tiny location tracker showing up your current location on google maps
 
 
 Where can I connect with you?

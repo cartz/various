@@ -1,0 +1,18 @@
+/*
+
+	=== here we are ===
+	
+	contributors: Claus Artz
+	author link: http://mydarktime.de
+	license: CC BY-NC-SA 3.0
+
+	== description ==
+	this tiny snippet shows how easy it could be to locate your computer just by putting some easy js and one api call together. as i used this during one of my courses, this code is not very well documented, because the pupils had to guess, what this code is doing!
+
+*/
+
+pos {
+	margin: 30px auto;
+	width:100%;
+	height:600px;
+}
