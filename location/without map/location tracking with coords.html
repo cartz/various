@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+	<!--	this piece of poetry is tested and working under firefox and safari on os x! (other browsers may not work) for further informations please look at the style.css	-->
+	
+	<head>
+		
+		<title>deine Koordinaten</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="tracking just dead simple"/>
+	
+	</head>
+ 
+	<body>
+	
+		<p id="koords"> </p>
+		
+		<button onclick="getLocation()">Koordinaten bestimmen!</button>
+		
+		<script>
+			var x=document.getElementById("koords");
+			function getLocation()
+			  {
+			  if (navigator.geolocation)
+			    {
+			    navigator.geolocation.getCurrentPosition(showPosition,showError);
+			    }
+			  else{x.innerHTML="Geolocation wird von deinem Browser nicht unterstützt!";}
+			  }
+			function showPosition(position)
+			  {
+			  x.innerHTML="Latitude: " + position.coords.latitude + 
+			  "<br>Longitude: " + position.coords.longitude;	
+			  }
+			function showError(error)
+			  {
+			  switch(error.code) 
+			    {
+			    case error.PERMISSION_DENIED:
+			      x.innerHTML="Der Zugriff auf die Koordinaten wurde durch dich verweigert!"
+			      break;
+			    case error.POSITION_UNAVAILABLE:
+			      x.innerHTML="Deine Koordinaten sind leider nicht verfügbar!"
+			      break;
+			    case error.TIMEOUT:
+			      x.innerHTML="Connection timed out!"
+			      break;
+			    case error.UNKNOWN_ERROR:
+			      x.innerHTML="Irgendwas ist schief gelaufen, aber ich weiß nicht genau, woran es liegt!"
+			      break;
+			    }
+			  }
+		</script>
+			
+	</body>
+	
+</html>
