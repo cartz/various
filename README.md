@@ -12,6 +12,7 @@ This is an libary of things I collected during my work on various projects. This
 * floating text with html5
 * an example of humans.txt
 * various irc scripts
+* password generator
 * basic movements with the ipad in lua
 * plattform detection (browser, os)
 * a qr-code generator
