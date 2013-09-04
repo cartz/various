@@ -1,4 +1,4 @@
-readme
+Readme
 ====
 
 What is this?
@@ -27,4 +27,4 @@ This is an libary of things I collected during my work on various projects. This
 Where can I connect with you?
 ----
 
-* visit <http://www.typingmonkey.org> for further informations
+* Visit <http://www.typingmonkey.org> for further informations!
