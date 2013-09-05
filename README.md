@@ -23,6 +23,7 @@ This is an libary of things I collected during my work on various projects. This
 * some wordpress snippets
 * a small and simple landing page for a website under construction
 * a very tiny location tracker showing up your current location on google maps
+* a tiny speech bubble, which is drawn by using javascript
 
 
 Where can I connect with you?
