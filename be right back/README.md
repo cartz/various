@@ -7,4 +7,4 @@ This html-theme was used to show some effects. If you want to use it, than use i
 Where can I connect with you?
 ----
 
-* Visit <http://www.typingmonkey.org> for further informations!
+Visit <http://www.typingmonkey.org> for further informations!
