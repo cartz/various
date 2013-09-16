@@ -11,6 +11,13 @@
 	<meta name="description" content="<?php $settings->out( 'site-meta', 'description' ); ?>">
 	<meta name="author" content="<?php $settings->out( 'site-meta', 'author' ); ?>">
 	
+	<script>
+	var leeflets_template_path = '<?php addslashes( $template->url() ); ?>';
+	</script>
+	
+	<?php $hook->apply( 'head' ); ?>
+	
+	
 	<!-- Mobile Specific Metas -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -22,15 +29,16 @@
 	<link rel="apple-touch-icon" sizes="114x114" href="<?php $template->url( 'images/fav/tmfav_114.png' ); ?>">
 	
 	<!-- CSS -->
-	<link href="<?php $template->url( 'stylesheets/style.css' ); ?>" media="screen" rel="stylesheet" type="text/css" />
-	<link href="<?php $template->url( 'stylesheets/responsive.css' ); ?>" media="screen" rel="stylesheet" type="text/css" />
-	<link href="<?php $template->url( 'stylesheets/bootstrap.css' ); ?>" media="screen" rel="stylesheet" type="text/css" />
+	<noscript>
+		<link rel="stylesheet" href="<?php $template->url( 'css/style.css' ); ?>" />
+		<link rel="stylesheet" href="<?php $template->url( 'css/responsive.css' ); ?>" />
+		<link rel="stylesheet" href="<?php $template->url( 'css/bootstrap.css' ); ?>" />
+	</noscript>
+	
 	  
 	<!--[if lt IE 9]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-
-	<?php $hook->apply( 'head' ); ?>
 	
   
 </head>
@@ -60,11 +68,11 @@
 				<div class="hero-unit">
 					<h2 class="slab">
 					<span class="slabtext">
-					<?php $content->out( 'line 1', 'text' ); ?></span>
+					<?php $content->out( 'intro', 'line 1' ); ?></span>
 					<span class="slabtext">
-					<?php $content->out( 'line 2', 'text' ); ?></span>
+					<?php $content->out( 'intro', 'line 2' ); ?></span>
 					<span class="slabtext">
-					<?php $content->out( 'line 3', 'text' ); ?></span>
+					<?php $content->out( 'intro', 'line 3' ); ?></span>
 					</h2>
 
 				</div>
