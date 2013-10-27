@@ -5,7 +5,7 @@ This is a little neat script to turn off and on Bluetooth and AirPort to get you
 I know, that there might be much cleaner ways to get this things done, but at this point my solution works quite good for me. If you have better ideas to contribute, I would be very happy to receive your Pull Requests and even Issues, if you are having some.
 
 
-What is needed to get me working?
+What is needed to get this working?
 ----
 
 * you will need to get blueutil installed, which you can find here too or at the authors page at ![http://www.frederikseiffert.de/blueutil/](https://www.frederikseiffert.de/blueutil/)
