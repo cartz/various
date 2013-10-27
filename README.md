@@ -25,6 +25,7 @@ This is an libary of things I collected during my work on various projects. This
 * a very tiny location tracker showing up your current location on google maps
 * a tiny speech bubble, which is drawn by using javascript
 * "be right back" - a small html template for a website beeing redesigned
+* Alfred 2 workflows
 
 
 Where can I connect with you?
