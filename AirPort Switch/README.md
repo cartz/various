@@ -8,5 +8,5 @@ I know, that there might be much cleaner ways to get this things done, but at th
 What is needed to get this working?
 ----
 
-* you will need to get blueutil installed, which you can find here too or at the authors page at ![http://www.frederikseiffert.de/blueutil/](https://www.frederikseiffert.de/blueutil/)
-* you will need Alfred 2 with the powerpack ![http://www.alfredapp.com/](http://www.alfredapp.com/)
+* you will need to get blueutil installed, which you can find here too or at the authors page at ![https://www.frederikseiffert.de/blueutil/](https://www.frederikseiffert.de/blueutil/)
+* you will need Alfred 2 with the powerpack ![https://www.alfredapp.com/](https://www.alfredapp.com/)
