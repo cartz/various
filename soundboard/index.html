@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<!-- specific metas -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- basic page needs -->
+		<meta charset="utf-8">
+		<title>Soundboard</title>
+		<meta name="description" content="This is just a basic soundboardtemplate, which is based on Bootstrap 3.3.1.">
+		<meta name="author" content="Claus Artz">
+				
+		<!-- css -->
+		<link rel="stylesheet" id="bootstrap" href="css/bootstrap.css" type="text/css" media="all">
+		<link rel="stylesheet" id="bootstrap" href="css/style.css" type="text/css" media="all">
+		
+		<!-- html5 shim and respond.js ie8 support of html5 elements and media queries -->
+		<!--[if lt ie 9]>
+			<script src="js/html5shiv.js"></script>
+			<script src="js/respond.min.js"></script>
+		<![endif]-->
+
+	</head>
+	<body>
+	
+		<div class="container">
+
+			<div class="row">
+				<div class="text-center"><h1>Soundboard</h1></div>
+			</div>
+
+			<div class="row">
+
+				<div class="col-md-4 col-xs-6">
+					<audio preload="auto" id="sound1">
+						<source src="audio/punch.ogg" type="audio/ogg">
+						<source src="audio/punch.mp3" type="audio/mp3">
+					</audio>
+					<button type="button" class="btn btn-lg btn-block" onclick="document.getElementById('sound1').play()">punch</button>
+				</div>
+
+				<div class="col-md-4 col-xs-6">
+					<audio preload="auto" id="sound2">
+						<source src="audio/punch.ogg" type="audio/ogg">
+						<source src="audio/punch.mp3" type="audio/mp3">
+					</audio>
+					<button type="button" class="btn btn-lg btn-block" onclick="document.getElementById('sound2').play()">punch</button>
+				</div>
+
+				<div class="col-md-4 col-xs-6">
+					<audio preload="auto" id="sound3">
+						<source src="audio/punch.ogg" type="audio/ogg">
+						<source src="audio/punch.mp3" type="audio/mp3">
+					</audio>
+					<button type="button" class="btn btn-lg btn-block" onclick="document.getElementById('sound3').play()">punch</button>
+				</div>
+
+			</div>
+
+		</div>
+		
+		<footer>
+			<div class="col-md-offset-9 col-xs-offset-9">
+				<p class="text">made with <a href="http://getbootstrap.com" target="_blank">bootstrap</a> and &#x2665;</p>
+			</div>
+		</footer>
+
+	</body>
+</html>

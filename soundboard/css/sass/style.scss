@@ -1,0 +1,64 @@
+/* variables */
+
+$color1: 	#2c3e50;	// midnight blue
+$color3: 	#d35400;	// pumpkin
+$color4: 	#34495e; 	// wet asphalt
+
+$border: 	1px solid;
+
+
+/* settings for tags */
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+		background-color: $color1;
+		margin-bottom: 60px;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	height: 60px;
+	width: 100%;
+	background-color: $color4;
+	border-top: $border;
+	border-color: $color3;
+}
+
+h1 {
+	color: $color3;
+	border-color: $color3;
+	font-size: 4em;
+	margin-bottom: 1em;
+}
+
+.btn {
+	background-color: $color1;
+	color: $color3;
+	border-color: $color3;
+	border: $border;
+
+		&:hover {
+			background-color: $color4;
+			border: $border;
+			border-color: $color3;
+			color: $color3;
+		}
+}
+
+.col-xs-6 {
+	margin-bottom: 1em;
+}
+
+.text {
+	color: $color3;
+
+	a {
+		color: $color3;
+		text-decoration: underline;
+	}
+}
